@@ -1,5 +1,6 @@
 /* Style backticked code in links #4817, matches GitHub’s `.markdown-title code` rule */
-.js-commits-list-item code, /* `isCommitList` commit message */
+/* `isCommitList` commit message */
+[data-testid='commit-row-item'] code,
 .Box-header .commit-author + span code /* `isRepoTree` commit message */ {
 	padding: 2px 4px;
 	background-color: var(
@@ -115,6 +116,16 @@ svg.octicon-package + a.Truncate[href*='/releases/download/'] > .Truncate-text {
 		/* Subtract 16px spacing from both .gap-3 and .ml-3 */
 		margin-right: -32px;
 	}
+}
+
+/* Issue picker does not clip unbreakable issue titles in PRs */
+/* Info: https://github.com/refined-github/refined-github/pull/8454 */
+/* Test: type "#113" in https://github.com/refined-github/sandbox/pull/4 */
+.suggester-container li {
+	max-width: 500px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 /*

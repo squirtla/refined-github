@@ -29,30 +29,20 @@ GitHub Enterprise is also supported: [How to enable it](https://fregante.github.
 
 <table><tr><td width="550"><div align="center">
 	<p><sup><a href="https://github.com/sponsors/fregante">@fregante</a>’s open source work is supported by the community.<br>Special thanks to:</sup></p>
-	<p><a href="http://prisma.io/">
-		<img src="https://user-images.githubusercontent.com/1402241/205429539-4549ea71-f26c-432a-aaef-db430c435718.svg" width="250" alt="Prisma.io">
+	<p><a href="https://www.prisma.io/">
+		<picture>
+			<source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/f781e9a3-2c03-4334-b234-8f20600ca45f">
+			<img width="250" alt="Prisma.io" src=https://user-images.githubusercontent.com/1402241/205429539-4549ea71-f26c-432a-aaef-db430c435718.svg">
+		</picture>
 		<br><sup>Next-generation Node.js and TypeScript ORM with an intuitive data model, automated migrations, type-safety & auto-completion.</sup>
 	</a></p>
-</table>
-
-<table><tr><td width="550">
-<div align="center">
-	<p>
-		<sup>
-			Sindre’s open source work is supported by the community.<br>Special thanks to:
-		</sup>
-	</p>
-	<br>
-	<a href="https://workos.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=refined-github&utm_source=github">
-		<div>
-			<img src="https://sindresorhus.com/assets/thanks/workos-logo-white-bg.svg" width="210" alt="WorkOS">
-		</div>
-		<b>Your app, enterprise-ready.</b>
-		<div>
-			<sub>Start selling to enterprise customers with just a few lines of code. Add Single Sign-On (and more) in minutes instead of months.</sup>
-		</div>
-	</a>
-</div>
+	<p><a href="https://frappe.io/">
+		<picture>
+			<source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/534638ee-7849-4e42-a847-b50be5d1e2f0">
+			<img width="190" alt="Frappe" src="https://github.com/user-attachments/assets/1f853047-b30c-41de-acf9-4daefb6a6fc3">
+		</picture>
+		<br><sup>Fully-featured low-code web framework and more world-class free and open-source software.</sup>
+	</a></p>
 </table>
 
 </div>
@@ -388,6 +378,8 @@ https://github.com/refined-github/refined-github/wiki/Contributing#metadata-guid
 - [](# "click-outside-modal") [Closes checks list when clicking outside of modal.](https://github.com/refined-github/refined-github/issues/7157)
 - [](# "linkify-line-numbers") [Linkifies the line numbers where GitHub forgot to add links.](https://github.com/refined-github/refined-github/assets/1402241/d5b67f4e-35c3-45d8-b72c-937b855168c3)
 - [](# "sidebar-focus-file") [Scrolls the file tree to the current file.](https://github.com/user-attachments/assets/25e1e19e-799b-4dab-ae81-59ba17ad1194)
+- [](# "no-modals") [Disable modals that reduce user-experience instead of enhancing it.](https://github.com/user-attachments/assets/7b63c7db-ae31-4ee8-8510-3b9db0c11f3e)
+- [](# "same-page-links") Keeps links from opening in new tabs when they shouldn't. "Open in new tab" must be the user's choice, not the default behavior.
 
 <!--
 Refer to style guide in the wiki. Keep this message between sections.
